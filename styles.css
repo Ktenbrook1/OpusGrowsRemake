@@ -1,0 +1,206 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color: white;
+    
+}
+html, body{
+    margin: 0;
+    width: 100%;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 1%;
+}
+
+.nav div{
+    height: 4px;
+    background-color: aliceblue;
+    margin: 5px 0;
+    padding: 0;
+    border-radius: 25px;
+    transition: 0.3s;
+    background-color: black;
+}
+.nav{
+    width: 30px;
+    display: inline-block;
+}
+nav{
+    width: 100%
+}
+.one{
+    width: 30px;
+}
+.two{
+    width: 20px;
+}
+.three{
+    width: 25px;
+}
+.nav:hover div{
+    width: 30px;
+}
+#myLinks{
+    display: none;
+}
+.cart{
+    width: 200px;
+    height: 50px;
+    float: right;
+}
+.top button{
+    background-image: url(succulents.png);
+    background-position: center;
+    background-size: 15em;
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 5rem;
+    width: 100%; 
+    height: 2.5em;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+   
+}
+
+.shop{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    background-color: rgb(97, 97, 97);
+    border-radius: 5px;
+}
+.opus{
+    margin-top: 3.5em;
+}
+.know{
+    margin-top: 20px;
+    font-family: 'Bungee Inline', cursive;
+    color: rgb(133, 133, 194);
+    font-size: 30px;
+}
+h1,h2,h3 {
+    text-align: center;
+}
+input{
+    width: 80%;
+    height: 40px;
+    margin-top: 15px;
+}
+.signUp button{
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    background-position: center;
+    width: 80%;
+    height: 40px;
+    margin-top: 15px;
+    background-color: rgb(97, 97, 97);
+}
+.color{
+    color: white;
+}
+.whyUs{
+    box-shadow: 0px 0 10px rgba(0, 0, 0, 0.8);
+    margin-top: 15px;
+    background-color: rgb(91, 203, 91);
+    text-align: center;
+    padding: 150px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    color: white;
+}
+.whyUs h3{
+    font-family: 'Bungee Inline', cursive;
+}
+.whyUs button, .forHome button, .forWholesale button{
+    margin-top: 20px;
+    width: 90%;
+    height: 60px;
+    background-color: rgb(97, 97, 97);
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: none;
+}
+.whyUs button:hover, .forHome button:hover, .forWholesale button:hover, .signUp button:hover, .bottomButton button:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  }
+.handsInDirt{
+    max-width: 100%;
+}
+
+.forHome h4, .forWholesale h4{
+    font-family: 'Bungee Inline', cursive;
+    font-size: 30px;
+}
+.forHome{
+    text-align: center;
+    padding: 150px;
+    margin-top: -4px;
+    background-color: rgb(179, 80, 179);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 25px;
+}
+.forWholesale{
+    text-align: center;
+    background-color: rgb(97, 162, 211);
+    text-align: center;
+    padding: 150px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 25px;
+}
+.ingredients p, .ingredients h5,.ingredients h4,.ingredients h3,.ingredients h2{
+    color: black;
+}
+.ingredients{
+    background-image: url(wood.png);
+    width: 100%;
+    padding: 20px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.ingredients h4{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+.ingredients p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 20px;
+    font-size: 15px;
+}
+.ingredients h5{
+    margin-top: 15px;
+    font-size: 16px;
+}
+.bottom{
+    padding: 20px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+   background-color: rgb(97, 97, 97);
+}
+.bottom h2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.bottom h4{
+    color: black;
+    text-align: center;
+    margin-top: 40px;
+    font-size: 20px;
+}
+input[type="email"] {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    font-style: italic;
+}
+.bottom button{
+    width: 100px;
+    height: 40px;
+    background-color: rgb(34, 34, 72);
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: 2px solid rgb(40, 39, 39);
+}
